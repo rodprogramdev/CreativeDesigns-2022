@@ -40,6 +40,7 @@ body{
     color: #fff;
     padding: 1rem 1rem 1rem 2.5rem;
     display: flex;
+   
 }
 
 
@@ -49,6 +50,7 @@ ul li{
     padding:1rem; 
     list-style-type: none;
     float: left;
+    font-size: 2rem;
 }
 
 .header__heading{
@@ -72,12 +74,13 @@ span{
 .header__heading h1{
   padding:0 1% 0 0;
   line-height: 120%;
+  font-size: 5rem;
 }
 
-h1{
+/* h1{
     font-size: 3rem;
     line-height: 120%;
-}
+} */
 
 /* h2{
     font-size: 40px;
@@ -86,7 +89,7 @@ h1{
 
 h3{
     line-height: 130%;
-    font-size: 25px;
+    font-size: 2.5rem;
    padding: 1%;
 }
 
@@ -95,28 +98,27 @@ p{
     /* background-color: red; */
     line-height: 120%;
     padding: 2% 0;
+    font-size: 1.6rem;
 }
-/* 
-.header__btn{
-   
-    background-color: blue;
-    width: 10%;
-    top: 50%;
-    left: 50%;
+ 
+/* .header__btn{
+ border-radius: 5%;
+ background-color:#1d98de;
 } */
 
 
 .header__btn--accent1{
   background-color:green;
   position: absolute;
-  top: 60%;
-  left: 78%;
+  top: 68%;
+  left: 73%;
   background-color: #1d98de;
-  padding: 1% 4%;
+  padding: 1% 4.5%;
   color: rgb(238, 237, 237);
   border: 0;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 3rem;
+  border-radius: 1.5rem 1.5rem;
   /* text-transform: uppercase; */
 
 }
