@@ -1,10 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
+/* 
+COLOR PALETTES: 60-30-10
+
+Primary color:
+Secondary color: 
+Accent 1: #1d98de
+Accent 2: 
+*/
+
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+ 
+html{
+  font-size: 62.5%;  
+} 
 
 body{
     /* background-color: blue;*/
@@ -48,9 +63,6 @@ ul li{
     color: #fff;
     padding: 2% 2% 2% 1%;
     border-radius: 1%;
-    
- 
-
 }
 
 span{
@@ -83,5 +95,29 @@ p{
     /* background-color: red; */
     line-height: 120%;
     padding: 2% 0;
+}
+/* 
+.header__btn{
+   
+    background-color: blue;
+    width: 10%;
+    top: 50%;
+    left: 50%;
+} */
+
+
+.header__btn--accent1{
+  background-color:green;
+  position: absolute;
+  top: 60%;
+  left: 78%;
+  background-color: #1d98de;
+  padding: 1% 4%;
+  color: rgb(238, 237, 237);
+  border: 0;
+  font-weight: 700;
+  font-size: 1rem;
+  /* text-transform: uppercase; */
+
 }
 
